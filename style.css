@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Calibri, sans-serif;
+  color: white;
+}
+
+#zero {
+  height: 100vh;
+}
+
+.bg-image img {
+  width: 100%;
+  height: 100vh;
+  filter: brightness(0.6);
+}
+
+#logo {
+  width: 80px;
+  height: 80px;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* height: 100vh;  */
+}
+
+.menu {
+  font-size: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.home-txt {
+  position: absolute;
+  top: 25%;
+}
+
+.home-txt h1 {
+  text-align: center;
+  font-size: 130px;
+  font-weight: 600;
+}
+
+/* styling of second section that is services section */
+
+#one {
+  height: 80vh;
+  background: rgb(14, 14, 105);
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services h1 {
+  font-size: 40px;
+  letter-spacing: 3px;
+  padding: 40px 0px 60px 0px;
+}
+
+#service-box {
+  font-weight: 650;
+  font-size: 31px;
+  text-align: center;
+  width: 50%;
+  padding: 30px 0px;
+}
+
+/* Styling of technology sections  */
+
+#two {
+  text-align: center;
+  width: 100%;
+  height: 130vh;
+  background: linear-gradient(rgb(243, 36, 88), rgb(255, 0, 106));
+}
+
+#two h1 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+#flow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#tech-box {
+  width: 18%;
+  height: 30%;
+  text-align: justify;
+  font-size: 18px;
+  padding: 15px;
+}
+
+#tech-box h2 {
+  padding: 10px 0px 15px 0px;
+  font-size: 35px;
+}
+
+/* Styling of careers sections from here  */
+
+#three {
+  height: 80vh;
+}
+
+#career-head h1 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  padding: 40px 0px 20px 0px;
+  color: black;
+  text-align: center;
+}
+
+.careers {
+  display: flex;
+  justify-content: center;
+}
+
+.careers img {
+  padding: 20px;
+}
+
+/* Styling of contact us starts from here */
+
+#four {
+  height: 115vh;
+  background: rgb(14, 14, 105);
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 40px;
+  padding: 20px 0px 20px 0px;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.address h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.address p {
+  font-weight: 600;
+  font-size: 19px;
+}
+
+#add {
+  text-align: center;
+  width: 30%;
+}
